@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        label {
+            font-family: sans-serif;
+        }
+        legend {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: aliceblue;
+            text-align: center;
+        }
+        fieldset {
+            width: 40%;
+            margin-left: 600px;
+            background-color: rgb(111, 124, 124);
+            border-radius: 6%; 
+            padding-bottom: 50px;
+        }
+        input{
+            width: 25%;
+            border-radius: 100px;
+        }
+        button{
+            width: 25%;
+            border-radius: 100px;
+        }
+        button:hover {
+            background-color: aqua;
+        }
+        .int:hover {
+            background-color: aqua;
+        }
+        select {
+            width: 25%;
+            border-radius: 100px;
+        }
+        form {
+            width: 50%;
+            height: 20px;
+        }
+    </style>
+</div></div>
+    <fieldset><legend>Formulaire de demand de passport </legend><br>
+    <label for="N"><span  style="color: blue;">Nom  :</span></label>
+    <input type="text" id="N" placeholder="saisir votre nom"><br><br>
+    <label for="NELP"><span  style="color: blue;" >Prenom  :</span></label>
+    <input type="text" id="NELP" placeholder="saisir votre prenom"><br><br>
+    <label for="CIN"><span  style="color: blue;">N°CIN  :</span></label>
+    <input type="text" id="CIN" placeholder="saisir votre n° CIN"><br><br>
+    <label for="DdN"><span  style="color: blue;">Date De Naissaance :</span> </label>
+    <input type="date" id="DdN"><br><br>
+    <label for="G"><span style="color: blue;">Genre :</span></label>
+    <label for="M">Masculin</label>
+    <input type="radio" value="Masculin">
+    <label for="F">Feminin</label>
+    <input type="radio" value="Feminin"><br><br>
+    <label for="LDN"><span  style="color: blue;">Lien De Naissance  :</span></label>
+    <input type="text" placeholder="saisir votre lieu de naissance"><br><br>
+    <label for="PDN"><span  style="color: blue;">Pays De Naissance  :</span></label>
+    <select name="Pays" id="PDN">
+        <option value="Maroc">Maroc</option>
+        <option value="Alger">France</option>
+        <option value="Espagne">Espagne</option>
+    </select><br><br>
+    <label for="NdT"><span style="color: blue;" >Numero De Telephone :</span> +212</label>
+    <input type="text" placeholder="0600-000000"><br><br>
+    <label for="PdCD"><span  style="color: blue;">Photo De Carte D'identite</span></label>
+    <input type="file"><br><br>
+    <input class="int" type="submit" value="Valider">
+    <button>Annuler</button>
+    </fieldset>
+
+<!-- Thats A card And DropDown-->
+<form action="">
+<div class="card bg-dark">
+    <img src="/assets/imgs/ada.jpg" class="rounded-circle" alt="" width="250px">
+<div class="card-body text-danger">
+        <h3>Ada Wong</h3>
+        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ratione recusandae provident, unde aliquam iste, dolore voluptates soluta consectetur consequuntur id? Recusandae minima eveniet quasi qui beatae accusantium ratione aliquam.</p>
+<div class="dropdown">
+    <button class="btn btn-danger dropdown-toggle " type="button" id="dropdownMenuButton"  data-bs-toggle="dropdown" aria-expanded="false">click here</button>
+    <ul class="dropdown-menu" area-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item text-info bg-dark" href="#">Acceuil</a></li>
+      <li><a class="dropdown-item text-info bg-dark" href="#">More Things</a></li>
+      <li><a class="dropdown-item text-info bg-dark" href="#">New caractere</a></li>
+      <li><a class="dropdown-item text-info bg-dark" href="#">Police</a></li>
+    </ul>
+</div>
+</div>
+</div></form>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

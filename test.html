@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+           background: url(https://raw.githubusercontent.com/CiurescuP/LogIn-Form/main/bg.jpg);
+           display: flex;
+           flex: content;
+           justify-content: center;
+           align-items: center;
+           align-self: center;
+           margin: 0;
+           text-align: center;
+           padding-top: 250px;
+           filter: drop-shadow(30%);
+           background-size: cover;
+        }
+        h1 {
+            font-size: 80px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-bottom:20px;
+            padding-top: 20px;
+            color: 100px solid rgb(129,236, 121,0.18);
+        }
+        form{
+            width: 500px;
+            height: 550px;
+            background-color: rgba(255, 255, 255,0.13);
+            border-radius: 5%;
+            border: 20px solid rgba(121, 121, 121, 0.18);
+            backdrop-filter: blur(5px);
+            box-shadow: 0 0 40px rgba(105, 117, 206, 0.6);
+        }
+        input {
+            width: 350px;
+            height: 40px;
+            border-radius: 30px;
+            border-color: beige;
+        }
+        ::placeholder {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            text-transform: capitalize;
+            font-weight: 60px;
+            font-size: 18px;
+            cursor: pointer;
+            font-family: 'Quicksand', sans-serif;
+        }
+        input:hover {
+            background-color: rgb(48, 45, 45);
+            transition: 0.5s ease;
+        }
+        label {
+            font-size: 20px;
+            color: aliceblue;
+            text-overflow: ellipsis;
+            animation: reverse;
+            letter-spacing: 5px;
+            font-family: 'Quicksand', sans-serif;
+        }
+        button {
+            width: 150px;
+            height: 50px;
+            border-radius: 50px;
+        }
+        button :active {
+            color: black;
+            background-color: chocolate;
+        }
+        button:hover{
+            background-color: chocolate;
+            color: aqua;
+        }
+    </style>
+<form action="">
+    <div class="container">
+        <h1>Log in</h1><br><br>
+<label for="Name">Username :</label><br>
+<input type="text" placeholder="Your Username" id="Name"><br><br>
+<label for="Password">Password :</label><br>
+<input type="password" placeholder="Your Password" id="password"><br><br><br>
+<button class="btn btn-primary text-light px-5">Send</button>
+    </div>
+</form>
+</body>
+</html>

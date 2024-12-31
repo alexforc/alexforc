@@ -1,0 +1,34 @@
+body{
+  background-color: #1a1a1a;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+    border: 4px solid rgba(236, 128, 128, 0.093);
+    box-shadow: 0px 0px 40px rgb(217, 228, 9, 0.109);
+}
+ .photography-slider--content .photography-slider--image {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-width: 72.917vw;
+    margin-left: auto;
+}
+.photography-slider--inner {
+    position: absolute;
+    left: -16.5vw;
+    top: 50%;
+    transform: translateY(-35%) translateX(-20%) rotate(90deg);
+    
+    
+}
+.photography-slider--content{
+    position: relative;
+    height: 100%;
+    margin-top: 100px;
+}

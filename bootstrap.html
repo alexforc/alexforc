@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>llll</title>
+</head>
+<body>
+    <style>
+       .picture {
+          display: flex;
+          margin: 0;
+          padding: 0;
+          align-items: center;
+          justify-content: center;
+          padding-top: 50px;
+          padding-right: 800px;
+          position: relative;
+        }
+        .h1 {
+            padding-left: 950px;
+            bottom: 200px;
+            position: relative;
+            font-family: sans-serif;
+        }
+        .card {
+            width: 300px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            left: 300px;
+            
+        }
+        main {
+            background-color: rgba(199, 201, 200, 0.604);
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            gap: 30px;
+            grid: 50px;
+            border-radius: 4px;
+        }
+        .projet {
+            border: 5px solid rgba(58, 35, 35, 0.262);
+            text-align: center;
+            width: 300px;
+            border-left: 50px;
+            border-right: 50px;
+            border-radius: 50px;
+            margin-left: 750px;
+            margin-bottom: 50px;
+        }
+        h3{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        hr {
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+        form {
+            text-align: center;
+        }
+        input{
+            width: 800px;
+            border: 1px solid rgba(44, 42, 42, 0.554);
+            border-radius: 4px;
+        }
+        textarea{
+            width: 800px;
+            border: 1px solid rgba(44, 42, 42, 0.554);
+            border-radius: 4px;
+        }
+        label {
+            font-family: sans-serif;
+        }
+        .class-body{
+            border-radius: 10px;
+            gap: 10px;
+            position: relative;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 50px auto;
+            animation: rotateBox 0.1s linear running infinite;
+            box-shadow: 0px 0px 5px 20px rgba(145, 181, 15, 0.554),0px 0px 5px 20px rgba(240, 47, 47, 0.454);
+          }
+          @keyframes rotateBox {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+          h3 {
+            text-shadow: 5px 5px 5px rgba(145, 181, 15, 0.824),0px 0px 4px rgba(240, 47, 47, 0.454);
+          }
+    </style>
+    <body>
+    <div class="container">
+        <div class="row bg-dark p-lg-2">
+            <div class="col-8 text-light my-1">Mon Portfolio</div>
+            <div class="col text-light"><button class="btn btn text-light bg-primary-outline"><a href="/assets/css/index1.html"></a>A propos</button></div>
+            <div class="col text-light "><button class="btn btn text-light bg-primary-outline"><a href="/assets/css/distination.html"></a>Projects</button></div>
+            <div class="col text-light "><button class="btn btn text-light bg-primary-outline"><a href="/assets/css/a_propos_.html" target="_blank"></a>Contact</button></div>
+        </div>
+    </div>
+    <div class="picture">
+        <img src="/assets/imgs/leon.jpg" class="rounded-circle d-flex" width="280rem">
+    </div>
+    <div class="h1 text"> <span style="color: aqua;">A propos de moi</span>
+        <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit . Laudantium error,  <br>vitae non nobis placeat,  veniam cupiditate iusto doloremque in,<br> aliquam labore! Odit quibusdam aliquam quas expedita <br> totam labore molestias dicta.</p>
+    </div>
+    <main>
+        <div class="projet"><h3>Mes Projets</h3></div>
+    <div class="card" style="width: 18rem;">
+        <img src="/assets/imgs/gaming pic.jpg" width="286rem" alt="">
+        <div class="card-body bg-light">
+            <h5 class="card-title text-dark">Gaming Project</h5>
+            <p class="card-text text-dark">This image represents a website I created for gaming purposes.</p>
+            <a href="" class="btn btn-primary">See details</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="/assets/imgs/natural pic.webp" width="286rem" alt="">
+        <div class="card-body bg-light">
+            <h5 class="card-title text-dark">Natural Project</h5>
+            <p class="card-text text-dark">This image represents a website I created for nature purposes.</p>
+            <a href="" class="btn btn-primary">See details</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img  src="/assets/imgs/kitchen pic.webp" width="286rem" height="162rem">
+        <div class="card-body bg-light">
+            <h5 class="card-title text-dark">Kitchen Project</h5>
+            <p class="card-text text-dark">This image represents a website I created for kitchen purposes.</p>
+            <a href="" class="btn btn-primary">See details</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img  src="/assets/imgs/movie pic.jpg" width="286rem" alt="">
+        <div class="card-body bg-light">
+            <h5 class="card-title text-dark">Movie Projet</h5>
+            <p class="card-text dark">This image represents a website I created for movie purposes.</p>
+            <a href="" class="btn btn-primary">See details</a>
+        </div>
+    </div>
+</main>
+<section>
+    <hr>
+    <div class="h2 text-center"> Contactez-moi</div>
+    <form action="#">
+        <label for="Nom">Nom</label><br>
+        <input type="text" name="Nom" id="Nom" placeholder="Votre nom"><br><br>
+        <label for="Email">Email</label><br>
+        <input type="email" name="Email" id="Email" placeholder="Votre email"><br><br>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" placeholder="Votre Message"></textarea><br>
+        <a href="" class="btn btn-success">Envoyer</a>
+    </form>
+</section><br><br>
+<footer class="bg-dark p-4 text-light text-center">&copy;2024 Mon Portfolio. Tous droits reserves</footer>
+<article>
+<div class="box"></div>
+</article>
+</body>
+</html>
